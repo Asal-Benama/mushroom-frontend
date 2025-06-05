@@ -1,16 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TracePage from './TracePage';
+import React from "react";
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/trace/:batchId" element={<TracePage />} />
-        <Route path="/" element={<h2>Welcome to Mushroom Trace</h2>} />
-      </Routes>
-    </Router>
+    <div>
+      <h1>Welcome to MushroomChain</h1>
+      <p>This is your homepage.</p>
+    </div>
   );
 }
-
-export default App;
 
