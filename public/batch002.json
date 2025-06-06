@@ -1,19 +1,29 @@
 [
   {
+    "registerTxId": "f0a75e9ce942686aaa461f8421242b821c6565a6a1594e3ffa8fe3ec7021c75d",
+    "registerTimestamp": "2025-06-06T15:54:43Z",
     "batchId": "batch002",
     "farmName": "MushroomFortuneFarm",
     "dateRegistered": "2025-06-05",
     "supplierInfo": "-",
     "woodType": "-",
     "sawdustDate": "-",
+    "sawdustTxId": "-",
+    "sawdustTimestamp": "-",
     "compostUsed": "-",
     "nitrateUsed": "-",
     "autoclaved": "false",
+    "substrateTxId": "-",
+    "substrateTimestamp": "-",
     "temp": "-",
     "humidity": "-",
     "grainCulture": "-",
     "durationDays": "-",
+    "inoculationTxId": "-",
+    "inoculationTimestamp": "-",
     "harvestDate": "-",
-    "weightKg": "-"
+    "weightKg": "-",
+    "harvestTxId": "-",
+    "harvestTimestamp": "-"
   }
 ]
