@@ -29,7 +29,7 @@ function TracePage() {
         <p className="trace-batch-id">Batch: <strong>{batchId}</strong></p>
 
         <div className="trace-table">
-          {Object.entries(latest).map(([key, value]) => (
+          {Object.entries(latest.Value).map(([key, value]) => (
             <div className="trace-row" key={key}>
               <div className="trace-label">{key}</div>
               <div className="trace-value">{value}</div>
