@@ -1,0 +1,32 @@
+[
+  {
+    "registerTxId": "99a50d770f5bf1e1460df443b1ec65b04ef0777be4f214e32701c8f0d58c24cf",
+    "registerTimestamp": "2025-06-16T11:26:18Z",
+    "batchId": "batch123",
+    "farmName": "Fortune Mushroom Farm",
+    "dateRegistered": "2025-06-15",
+    "supplierInfo": "-",
+    "woodType": "-",
+    "sawdustDate": "-",
+    "sawdustTxId": "-",
+    "sawdustTimestamp": "-",
+    "compostUsed": "-",
+    "nitrateUsed": "-",
+    "autoclaved": "false",
+    "substrateTxId": "-",
+    "substrateTimestamp": "-",
+    "temp": "-",
+    "humidity": "-",
+    "grainCulture": "-",
+    "durationDays": "-",
+    "inoculationTxId": "-",
+    "inoculationTimestamp": "-",
+    "harvestDate": "-",
+    "weightKg": "-",
+    "harvestTxId": "-",
+    "harvestTimestamp": "-",
+    "certifiedBy": "-",
+    "certificationTxId": "-",
+    "certificationTimestamp": "-"
+  }
+]
