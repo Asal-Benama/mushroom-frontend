@@ -1,0 +1,42 @@
+.trace-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #f0fff4;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.trace-batch {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.trace-list {
+  list-style: none;
+  padding: 0;
+}
+
+.trace-list li {
+  margin-bottom: 0.75rem;
+  background: #e6ffe6;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.trace-loading,
+.trace-error {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}
+
+.trace-footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #666;
+}
