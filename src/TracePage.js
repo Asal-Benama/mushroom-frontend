@@ -20,7 +20,7 @@ function TracePage() {
   if (error) return <div className="trace-error">{error}</div>;
   if (!data) return <div className="trace-loading">Loading trace details...</div>;
 
-  const latest = data[data.length - 1];
+  const latest = data[0];
 
   return (
     <div className="trace-page">
