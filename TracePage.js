@@ -14,26 +14,31 @@ function TracePage() {
         return res.json();
       })
       .then(setData)
-      .catch(() => setError("❌ This batch does not exist or has been removed."));
+      .catch(() => setError("❌ Batch not found or no longer available."));
   }, [batchId]);
 
-  if (error) return <p className="trace-error">{error}</p>;
-  if (!data) return <p className="trace-loading">Loading trace data...</p>;
+  if (error) return <div className="trace-error">{error}</div>;
+  if (!data) return <div className="trace-loading">Loading trace details...</div>;
 
   const latest = data[data.length - 1];
 
   return (
-    <div className="trace-container">
-      <h1>🍄 Organic Mushroom Trace</h1>
-      <p className="trace-batch"><strong>Batch ID:</strong> {batchId}</p>
+    <div className="trace-page">
+      <div className="trace-card">
+        <h1>🍄 Oyster Mushroom Traceability</h1>
+        <p className="trace-batch-id">Batch: <strong>{batchId}</strong></p>
 
-      <ul className="trace-list">
-        {Object.entries(latest).map(([key, value]) => (
-          <li key={key}><strong>{key}:</strong> {value}</li>
-        ))}
-      </ul>
+        <div className="trace-table">
+          {Object.entries(latest).map(([key, value]) => (
+            <div className="trace-row" key={key}>
+              <div className="trace-label">{key}</div>
+              <div className="trace-value">{value}</div>
+            </div>
+          ))}
+        </div>
 
-      <p className="trace-footer">Verified by OysterChain • Powered by Blockchain</p>
+        <p className="trace-footer">Certified Organic • Powered by Blockchain</p>
+      </div>
     </div>
   );
 }
